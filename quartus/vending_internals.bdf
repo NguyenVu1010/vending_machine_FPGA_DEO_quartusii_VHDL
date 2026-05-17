@@ -62,7 +62,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 /* ============ OUTPUT PINS (right side) ============ */
 (pin
 	(output)
-	(rect 1280 308 1480 324)
+	(rect 1800 308 2000 324)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "hex0[6..0]" (rect 90 0 138 11)(font "Arial" ))
 	(pt 0 8)
@@ -78,7 +78,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 )
 (pin
 	(output)
-	(rect 1280 428 1480 444)
+	(rect 1800 428 2000 444)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "hex1[6..0]" (rect 90 0 138 11)(font "Arial" ))
 	(pt 0 8)
@@ -94,7 +94,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 )
 (pin
 	(output)
-	(rect 1280 548 1480 564)
+	(rect 1800 548 2000 564)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "hex2[6..0]" (rect 90 0 138 11)(font "Arial" ))
 	(pt 0 8)
@@ -110,7 +110,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 )
 (pin
 	(output)
-	(rect 1280 660 1480 676)
+	(rect 1800 660 2000 676)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "hex3[6..0]" (rect 90 0 138 11)(font "Arial" ))
 	(pt 0 8)
@@ -126,7 +126,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 )
 (pin
 	(output)
-	(rect 1080 700 1280 716)
+	(rect 1400 700 1800 716)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "ledg[9..0]" (rect 90 0 136 11)(font "Arial" ))
 	(pt 0 8)
@@ -143,7 +143,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ TIMER_1HZ ============ */
 (symbol
-	(rect 320 100 488 220)
+	(rect 420 100 588 220)
 	(text "timer_1hz" (rect 5 0 56 11)(font "Arial" ))
 	(text "u_timer" (rect 8 104 50 115)(font "Arial" ))
 	(port
@@ -188,7 +188,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ DEBOUNCER × 3 ============ */
 (symbol
-	(rect 320 240 488 360)
+	(rect 420 240 588 360)
 	(text "debouncer" (rect 5 0 58 11)(font "Arial" ))
 	(text "u_deb0" (rect 8 104 47 115)(font "Arial" ))
 	(port
@@ -238,7 +238,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 	)
 )
 (symbol
-	(rect 320 380 488 500)
+	(rect 420 380 588 500)
 	(text "debouncer" (rect 5 0 58 11)(font "Arial" ))
 	(text "u_deb1" (rect 8 104 47 115)(font "Arial" ))
 	(port
@@ -288,7 +288,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 	)
 )
 (symbol
-	(rect 320 520 488 640)
+	(rect 420 520 588 640)
 	(text "debouncer" (rect 5 0 58 11)(font "Arial" ))
 	(text "u_deb2" (rect 8 104 47 115)(font "Arial" ))
 	(port
@@ -340,7 +340,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ ALU_3BIT ============ */
 (symbol
-	(rect 560 100 728 220)
+	(rect 760 100 928 220)
 	(text "alu_3bit" (rect 5 0 50 11)(font "Arial" ))
 	(text "u_alu" (rect 8 104 35 115)(font "Arial" ))
 	(port
@@ -385,7 +385,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ REG_3BIT (balance) ============ */
 (symbol
-	(rect 560 240 728 360)
+	(rect 760 240 928 360)
 	(text "reg_3bit" (rect 5 0 50 11)(font "Arial" ))
 	(text "u_bal" (rect 8 104 35 115)(font "Arial" ))
 	(port
@@ -430,7 +430,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ COMPARATOR_3BIT ============ */
 (symbol
-	(rect 560 380 728 460)
+	(rect 760 380 928 460)
 	(text "comparator_3bit" (rect 5 0 84 11)(font "Arial" ))
 	(text "u_cmp" (rect 8 64 47 75)(font "Arial" ))
 	(port
@@ -461,7 +461,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ COUNTER_COIN ============ */
 (symbol
-	(rect 560 500 728 620)
+	(rect 760 500 928 620)
 	(text "counter_coin" (rect 5 0 70 11)(font "Arial" ))
 	(text "u_coin" (rect 8 104 43 115)(font "Arial" ))
 	(port
@@ -506,7 +506,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ FSM_CONTROL (big symbol) ============ */
 (symbol
-	(rect 800 100 1040 540)
+	(rect 1120 100 1360 540)
 	(text "fsm_control" (rect 5 0 66 11)(font "Arial" ))
 	(text "u_fsm" (rect 8 424 47 435)(font "Arial" ))
 	(port
@@ -649,7 +649,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ HDU_TO_BCD ============ */
 (symbol
-	(rect 1100 100 1268 220)
+	(rect 1540 100 1708 220)
 	(text "hdu_to_bcd" (rect 5 0 62 11)(font "Arial" ))
 	(text "u_bcd" (rect 8 104 43 115)(font "Arial" ))
 	(port
@@ -687,7 +687,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 
 /* ============ SEVEN_SEG_DECODER × 3 ============ */
 (symbol
-	(rect 1100 280 1268 360)
+	(rect 1540 280 1708 360)
 	(text "seven_seg_decoder" (rect 5 0 100 11)(font "Arial" ))
 	(text "u_seg0" (rect 8 64 47 75)(font "Arial" ))
 	(port
@@ -709,7 +709,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 	)
 )
 (symbol
-	(rect 1100 400 1268 480)
+	(rect 1540 400 1708 480)
 	(text "seven_seg_decoder" (rect 5 0 100 11)(font "Arial" ))
 	(text "u_seg1" (rect 8 64 47 75)(font "Arial" ))
 	(port
@@ -731,7 +731,7 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 	)
 )
 (symbol
-	(rect 1100 520 1268 600)
+	(rect 1540 520 1708 600)
 	(text "seven_seg_decoder" (rect 5 0 100 11)(font "Arial" ))
 	(text "u_seg2" (rect 8 64 47 75)(font "Arial" ))
 	(port
@@ -777,396 +777,396 @@ Schematic hierarchical view của vending_top - hiển thị 11 sub-instance
 /* === Pin outputs === */
 (connector
 	(text "hex0[6..0]" (rect 1230 310 1278 322)(font "Arial"))
-	(pt 1268 316)
-	(pt 1280 316)
+	(pt 1708 316)
+	(pt 1800 316)
 	(bus)
 )
 (connector
 	(text "hex1[6..0]" (rect 1230 430 1278 442)(font "Arial"))
-	(pt 1268 436)
-	(pt 1280 436)
+	(pt 1708 436)
+	(pt 1800 436)
 	(bus)
 )
 (connector
 	(text "hex2[6..0]" (rect 1230 550 1278 562)(font "Arial"))
-	(pt 1268 556)
-	(pt 1280 556)
+	(pt 1708 556)
+	(pt 1800 556)
 	(bus)
 )
 (connector
 	(text "hex3[6..0]" (rect 1230 662 1278 674)(font "Arial"))
-	(pt 1268 668)
-	(pt 1280 668)
+	(pt 1708 668)
+	(pt 1800 668)
 	(bus)
 )
 (connector
 	(text "ledg[9..0]" (rect 1030 702 1078 714)(font "Arial"))
-	(pt 1068 708)
-	(pt 1080 708)
+	(pt 1388 708)
+	(pt 1400 708)
 	(bus)
 )
 
 /* === timer_1hz === */
 (connector
 	(text "clk_net" (rect 276 126 308 138)(font "Arial"))
-	(pt 308 132)
-	(pt 320 132)
+	(pt 408 132)
+	(pt 420 132)
 )
 (connector
 	(text "sw[0]" (rect 280 142 308 154)(font "Arial"))
-	(pt 308 148)
-	(pt 320 148)
+	(pt 408 148)
+	(pt 420 148)
 )
 (connector
 	(text "start_timer" (rect 248 158 308 170)(font "Arial"))
-	(pt 308 164)
-	(pt 320 164)
+	(pt 408 164)
+	(pt 420 164)
 )
 (connector
 	(text "tick_1hz" (rect 491 126 535 138)(font "Arial"))
-	(pt 488 132)
-	(pt 500 132)
+	(pt 588 132)
+	(pt 600 132)
 )
 (connector
 	(text "tick_10ms" (rect 491 142 545 154)(font "Arial"))
-	(pt 488 148)
-	(pt 500 148)
+	(pt 588 148)
+	(pt 600 148)
 )
 
 /* === debouncer u_deb0 === */
 (connector
 	(text "clk_net" (rect 276 266 308 278)(font "Arial"))
-	(pt 308 272)
-	(pt 320 272)
+	(pt 408 272)
+	(pt 420 272)
 )
 (connector
 	(text "sw[0]" (rect 280 282 308 294)(font "Arial"))
-	(pt 308 288)
-	(pt 320 288)
+	(pt 408 288)
+	(pt 420 288)
 )
 (connector
 	(text "tick_10ms" (rect 254 298 308 310)(font "Arial"))
-	(pt 308 304)
-	(pt 320 304)
+	(pt 408 304)
+	(pt 420 304)
 )
 (connector
 	(text "btn[0]" (rect 278 314 308 326)(font "Arial"))
-	(pt 308 320)
-	(pt 320 320)
+	(pt 408 320)
+	(pt 420 320)
 )
 (connector
 	(text "btn0_pulse" (rect 491 282 547 294)(font "Arial"))
-	(pt 488 288)
-	(pt 500 288)
+	(pt 588 288)
+	(pt 600 288)
 )
 
 /* === debouncer u_deb1 === */
 (connector
 	(text "clk_net" (rect 276 406 308 418)(font "Arial"))
-	(pt 308 412)
-	(pt 320 412)
+	(pt 408 412)
+	(pt 420 412)
 )
 (connector
 	(text "sw[0]" (rect 280 422 308 434)(font "Arial"))
-	(pt 308 428)
-	(pt 320 428)
+	(pt 408 428)
+	(pt 420 428)
 )
 (connector
 	(text "tick_10ms" (rect 254 438 308 450)(font "Arial"))
-	(pt 308 444)
-	(pt 320 444)
+	(pt 408 444)
+	(pt 420 444)
 )
 (connector
 	(text "btn[1]" (rect 278 454 308 466)(font "Arial"))
-	(pt 308 460)
-	(pt 320 460)
+	(pt 408 460)
+	(pt 420 460)
 )
 (connector
 	(text "btn1_pulse" (rect 491 422 547 434)(font "Arial"))
-	(pt 488 428)
-	(pt 500 428)
+	(pt 588 428)
+	(pt 600 428)
 )
 
 /* === debouncer u_deb2 === */
 (connector
 	(text "clk_net" (rect 276 546 308 558)(font "Arial"))
-	(pt 308 552)
-	(pt 320 552)
+	(pt 408 552)
+	(pt 420 552)
 )
 (connector
 	(text "sw[0]" (rect 280 562 308 574)(font "Arial"))
-	(pt 308 568)
-	(pt 320 568)
+	(pt 408 568)
+	(pt 420 568)
 )
 (connector
 	(text "tick_10ms" (rect 254 578 308 590)(font "Arial"))
-	(pt 308 584)
-	(pt 320 584)
+	(pt 408 584)
+	(pt 420 584)
 )
 (connector
 	(text "btn[2]" (rect 278 594 308 606)(font "Arial"))
-	(pt 308 600)
-	(pt 320 600)
+	(pt 408 600)
+	(pt 420 600)
 )
 (connector
 	(text "btn2_pulse" (rect 491 562 547 574)(font "Arial"))
-	(pt 488 568)
-	(pt 500 568)
+	(pt 588 568)
+	(pt 600 568)
 )
 
 /* === alu_3bit u_alu === */
 (connector
 	(text "balance[2..0]" (rect 516 126 548 138)(font "Arial"))
-	(pt 548 132)
-	(pt 560 132)
+	(pt 648 132)
+	(pt 760 132)
 	(bus)
 )
 (connector
 	(text "alu_b[2..0]" (rect 522 142 548 154)(font "Arial"))
-	(pt 548 148)
-	(pt 560 148)
+	(pt 648 148)
+	(pt 760 148)
 	(bus)
 )
 (connector
 	(text "alu_op" (rect 516 158 548 170)(font "Arial"))
-	(pt 548 164)
-	(pt 560 164)
+	(pt 648 164)
+	(pt 760 164)
 )
 (connector
 	(text "alu_y[2..0]" (rect 731 126 765 138)(font "Arial"))
-	(pt 728 132)
-	(pt 740 132)
+	(pt 928 132)
+	(pt 940 132)
 	(bus)
 )
 
 /* === reg_3bit u_bal === */
 (connector
 	(text "clk_net" (rect 516 266 548 278)(font "Arial"))
-	(pt 548 272)
-	(pt 560 272)
+	(pt 648 272)
+	(pt 760 272)
 )
 (connector
 	(text "sw[0]" (rect 520 282 548 294)(font "Arial"))
-	(pt 548 288)
-	(pt 560 288)
+	(pt 648 288)
+	(pt 760 288)
 )
 (connector
 	(text "bal_load_en" (rect 488 298 548 310)(font "Arial"))
-	(pt 548 304)
-	(pt 560 304)
+	(pt 648 304)
+	(pt 760 304)
 )
 (connector
 	(text "alu_y[2..0]" (rect 522 314 548 326)(font "Arial"))
-	(pt 548 320)
-	(pt 560 320)
+	(pt 648 320)
+	(pt 760 320)
 	(bus)
 )
 (connector
 	(text "balance[2..0]" (rect 731 266 775 278)(font "Arial"))
-	(pt 728 272)
-	(pt 740 272)
+	(pt 928 272)
+	(pt 940 272)
 	(bus)
 )
 
 /* === comparator_3bit u_cmp === */
 (connector
 	(text "balance[2..0]" (rect 516 406 548 418)(font "Arial"))
-	(pt 548 412)
-	(pt 560 412)
+	(pt 648 412)
+	(pt 760 412)
 	(bus)
 )
 (connector
 	(text "ge_price_a" (rect 731 406 785 418)(font "Arial"))
-	(pt 728 412)
-	(pt 740 412)
+	(pt 928 412)
+	(pt 940 412)
 )
 (connector
 	(text "ge_price_b" (rect 731 422 785 434)(font "Arial"))
-	(pt 728 428)
-	(pt 740 428)
+	(pt 928 428)
+	(pt 940 428)
 )
 
 /* === counter_coin u_coin === */
 (connector
 	(text "clk_net" (rect 516 526 548 538)(font "Arial"))
-	(pt 548 532)
-	(pt 560 532)
+	(pt 648 532)
+	(pt 760 532)
 )
 (connector
 	(text "sw[0]" (rect 520 542 548 554)(font "Arial"))
-	(pt 548 548)
-	(pt 560 548)
+	(pt 648 548)
+	(pt 760 548)
 )
 (connector
 	(text "coin_clr" (rect 506 558 548 570)(font "Arial"))
-	(pt 548 564)
-	(pt 560 564)
+	(pt 648 564)
+	(pt 760 564)
 )
 (connector
 	(text "coin_inc" (rect 506 574 548 586)(font "Arial"))
-	(pt 548 580)
-	(pt 560 580)
+	(pt 648 580)
+	(pt 760 580)
 )
 
 /* === fsm_control u_fsm === */
 (connector
 	(text "clk_net" (rect 756 126 788 138)(font "Arial"))
-	(pt 788 132)
-	(pt 800 132)
+	(pt 988 132)
+	(pt 1120 132)
 )
 (connector
 	(text "sw[0]" (rect 760 142 788 154)(font "Arial"))
-	(pt 788 148)
-	(pt 800 148)
+	(pt 988 148)
+	(pt 1120 148)
 )
 (connector
 	(text "btn0_pulse" (rect 736 158 788 170)(font "Arial"))
-	(pt 788 164)
-	(pt 800 164)
+	(pt 988 164)
+	(pt 1120 164)
 )
 (connector
 	(text "btn1_pulse" (rect 736 174 788 186)(font "Arial"))
-	(pt 788 180)
-	(pt 800 180)
+	(pt 988 180)
+	(pt 1120 180)
 )
 (connector
 	(text "btn2_pulse" (rect 736 190 788 202)(font "Arial"))
-	(pt 788 196)
-	(pt 800 196)
+	(pt 988 196)
+	(pt 1120 196)
 )
 (connector
 	(text "sw[9]" (rect 760 206 788 218)(font "Arial"))
-	(pt 788 212)
-	(pt 800 212)
+	(pt 988 212)
+	(pt 1120 212)
 )
 (connector
 	(text "tick_1hz" (rect 748 222 788 234)(font "Arial"))
-	(pt 788 228)
-	(pt 800 228)
+	(pt 988 228)
+	(pt 1120 228)
 )
 (connector
 	(text "balance[2..0]" (rect 756 238 788 250)(font "Arial"))
-	(pt 788 244)
-	(pt 800 244)
+	(pt 988 244)
+	(pt 1120 244)
 	(bus)
 )
 (connector
 	(text "ge_price_a" (rect 736 254 788 266)(font "Arial"))
-	(pt 788 260)
-	(pt 800 260)
+	(pt 988 260)
+	(pt 1120 260)
 )
 (connector
 	(text "ge_price_b" (rect 736 270 788 282)(font "Arial"))
-	(pt 788 276)
-	(pt 800 276)
+	(pt 988 276)
+	(pt 1120 276)
 )
 (connector
 	(text "alu_op" (rect 1043 126 1075 138)(font "Arial"))
-	(pt 1040 132)
-	(pt 1052 132)
+	(pt 1360 132)
+	(pt 1372 132)
 )
 (connector
 	(text "alu_b[2..0]" (rect 1043 142 1075 154)(font "Arial"))
-	(pt 1040 148)
-	(pt 1052 148)
+	(pt 1360 148)
+	(pt 1372 148)
 	(bus)
 )
 (connector
 	(text "bal_load_en" (rect 1043 158 1102 170)(font "Arial"))
-	(pt 1040 164)
-	(pt 1052 164)
+	(pt 1360 164)
+	(pt 1372 164)
 )
 (connector
 	(text "bal_clear" (rect 1043 174 1095 186)(font "Arial"))
-	(pt 1040 180)
-	(pt 1052 180)
+	(pt 1360 180)
+	(pt 1372 180)
 )
 (connector
 	(text "coin_inc" (rect 1043 190 1085 202)(font "Arial"))
-	(pt 1040 196)
-	(pt 1052 196)
+	(pt 1360 196)
+	(pt 1372 196)
 )
 (connector
 	(text "coin_clr" (rect 1043 206 1085 218)(font "Arial"))
-	(pt 1040 212)
-	(pt 1052 212)
+	(pt 1360 212)
+	(pt 1372 212)
 )
 (connector
 	(text "start_timer" (rect 1043 222 1098 234)(font "Arial"))
-	(pt 1040 228)
-	(pt 1052 228)
+	(pt 1360 228)
+	(pt 1372 228)
 )
 (connector
 	(text "ledg[9..0]" (rect 1043 254 1095 266)(font "Arial"))
-	(pt 1040 260)
-	(pt 1052 260)
+	(pt 1360 260)
+	(pt 1372 260)
 	(bus)
 )
 
 /* === hdu_to_bcd u_bcd === */
 (connector
 	(text "balance[2..0]" (rect 1056 126 1088 138)(font "Arial"))
-	(pt 1088 132)
-	(pt 1100 132)
+	(pt 1408 132)
+	(pt 1540 132)
 	(bus)
 )
 (connector
 	(text "dollar[3..0]" (rect 1271 126 1305 138)(font "Arial"))
-	(pt 1268 132)
-	(pt 1280 132)
+	(pt 1708 132)
+	(pt 1800 132)
 	(bus)
 )
 (connector
 	(text "cent_high[3..0]" (rect 1271 142 1330 154)(font "Arial"))
-	(pt 1268 148)
-	(pt 1280 148)
+	(pt 1708 148)
+	(pt 1800 148)
 	(bus)
 )
 (connector
 	(text "cent_low[3..0]" (rect 1271 158 1325 170)(font "Arial"))
-	(pt 1268 164)
-	(pt 1280 164)
+	(pt 1708 164)
+	(pt 1800 164)
 	(bus)
 )
 
 /* === seven_seg u_seg0 (cent_low -> hex0) === */
 (connector
 	(text "cent_low[3..0]" (rect 1056 306 1088 318)(font "Arial"))
-	(pt 1088 312)
-	(pt 1100 312)
+	(pt 1408 312)
+	(pt 1540 312)
 	(bus)
 )
 (connector
 	(text "hex0[6..0]" (rect 1271 306 1325 318)(font "Arial"))
-	(pt 1268 312)
-	(pt 1280 312)
+	(pt 1708 312)
+	(pt 1800 312)
 	(bus)
 )
 
 /* === seven_seg u_seg1 (cent_high -> hex1) === */
 (connector
 	(text "cent_high[3..0]" (rect 1056 426 1088 438)(font "Arial"))
-	(pt 1088 432)
-	(pt 1100 432)
+	(pt 1408 432)
+	(pt 1540 432)
 	(bus)
 )
 (connector
 	(text "hex1[6..0]" (rect 1271 426 1325 438)(font "Arial"))
-	(pt 1268 432)
-	(pt 1280 432)
+	(pt 1708 432)
+	(pt 1800 432)
 	(bus)
 )
 
 /* === seven_seg u_seg2 (dollar -> hex2) === */
 (connector
 	(text "dollar[3..0]" (rect 1056 546 1088 558)(font "Arial"))
-	(pt 1088 552)
-	(pt 1100 552)
+	(pt 1408 552)
+	(pt 1540 552)
 	(bus)
 )
 (connector
 	(text "hex2[6..0]" (rect 1271 546 1325 558)(font "Arial"))
-	(pt 1268 552)
-	(pt 1280 552)
+	(pt 1708 552)
+	(pt 1800 552)
 	(bus)
 )
