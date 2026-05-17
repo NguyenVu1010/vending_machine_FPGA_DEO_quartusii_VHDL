@@ -1,0 +1,21 @@
+# GHDL artifacts
+sim/*.cf
+sim/*.o
+sim/*.ghw
+sim/work-obj*.cf
+
+# Quartus output
+quartus/db/
+quartus/incremental_db/
+quartus/output_files/
+quartus/*.qws
+quartus/*.smsg
+quartus/*.sof
+quartus/*.pof
+quartus/*.rpt
+quartus/*.summary
+quartus/*.pin
+quartus/*.jdi
+quartus/*.done
+quartus/*.bak
+*~
