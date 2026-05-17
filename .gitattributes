@@ -1,0 +1,33 @@
+# Default: text files auto-detect, binary auto-detect
+* text=auto
+
+# Build scripts MUST be LF (Makefile breaks if CRLF; .sh/.tcl don't like CRLF)
+Makefile        text eol=lf
+*.mk            text eol=lf
+*.sh            text eol=lf
+*.tcl           text eol=lf
+*.sdc           text eol=lf
+
+# Quartus settings file — Quartus accepts both but LF is safer
+*.qsf           text eol=lf
+*.qpf           text eol=lf
+
+# Source files — LF for consistency
+*.vhd           text eol=lf
+*.v             text eol=lf
+*.md            text eol=lf
+
+# Windows wrappers — CRLF (native to Windows)
+*.bat           text eol=crlf
+*.ps1           text eol=crlf
+
+# Binary files — never convert
+*.sof           binary
+*.pof           binary
+*.jic           binary
+*.bdf           binary
+*.bsf           binary
+*.ghw           binary
+*.png           binary
+*.jpg           binary
+*.pdf           binary
