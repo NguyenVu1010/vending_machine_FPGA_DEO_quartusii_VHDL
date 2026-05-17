@@ -22,12 +22,12 @@ architecture rtl of vending_top is
     signal tick_1hz, tick_10ms : std_logic;
     signal start_timer : std_logic;
 
-    signal btn0_clean, btn0_pulse : std_logic;
-    signal btn1_clean, btn1_pulse : std_logic;
-    signal btn2_clean, btn2_pulse : std_logic;
+    signal btn0_pulse : std_logic;
+    signal btn1_pulse : std_logic;
+    signal btn2_pulse : std_logic;
 
     signal alu_a, alu_b, alu_y, balance : std_logic_vector(2 downto 0);
-    signal alu_op, alu_cout : std_logic;
+    signal alu_op : std_logic;
     signal bal_load_en, bal_clear : std_logic;
     signal bal_rst : std_logic;
 
@@ -39,7 +39,6 @@ architecture rtl of vending_top is
     signal disp_src : std_logic_vector(2 downto 0);
     signal dollar, cent_high, cent_low : std_logic_vector(3 downto 0);
 
-    signal state_out : std_logic_vector(2 downto 0);
     signal ledg_int  : std_logic_vector(9 downto 0);
 
     -- helper for active-low button inputs
@@ -59,18 +58,18 @@ begin
 
     u_deb0: entity work.debouncer
         port map (clk => clk, rst => rst, sample_tick => tick_10ms,
-                  din => btn0_n, clean => btn0_clean, pulse => btn0_pulse);
+                  din => btn0_n, clean => open, pulse => btn0_pulse);
     u_deb1: entity work.debouncer
         port map (clk => clk, rst => rst, sample_tick => tick_10ms,
-                  din => btn1_n, clean => btn1_clean, pulse => btn1_pulse);
+                  din => btn1_n, clean => open, pulse => btn1_pulse);
     u_deb2: entity work.debouncer
         port map (clk => clk, rst => rst, sample_tick => tick_10ms,
-                  din => btn2_n, clean => btn2_clean, pulse => btn2_pulse);
+                  din => btn2_n, clean => open, pulse => btn2_pulse);
 
     alu_a <= balance;
     u_alu: entity work.alu_3bit
         port map (a => alu_a, b => alu_b, op => alu_op,
-                  result => alu_y, cout => alu_cout);
+                  result => alu_y, cout => open);
 
     bal_rst <= rst or bal_clear;
     u_bal: entity work.reg_3bit
@@ -104,7 +103,7 @@ begin
             coin_inc     => coin_inc,
             coin_clr     => coin_clr,
             start_timer  => start_timer,
-            state_out    => state_out,
+            state_out    => open,
             ledg         => ledg_int
         );
 
